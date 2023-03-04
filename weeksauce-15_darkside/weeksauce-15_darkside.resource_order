@@ -1,13 +1,22 @@
 {
   "FolderOrderSettings": [
-    {"name":"Obj","order":2,"path":"folders/Obj.yy",},
-    {"name":"Spr","order":3,"path":"folders/Spr.yy",},
+    {"name":"Object_obj","order":2,"path":"folders/Object_obj.yy",},
+    {"name":"GameManager","order":5,"path":"folders/Object_obj/GameManager.yy",},
+    {"name":"Sprite_spr","order":3,"path":"folders/Sprite_spr.yy",},
+    {"name":"Room_rm","order":5,"path":"folders/Room_rm.yy",},
+    {"name":"Area","order":6,"path":"folders/Object_obj/Area.yy",},
+    {"name":"Area","order":4,"path":"folders/Sprite_spr/Area.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_GM_Mouse","order":2,"path":"objects/obj_GM_Mouse/obj_GM_Mouse.yy",},
+    {"name":"obj_DebugUI","order":1,"path":"objects/obj_DebugUI/obj_DebugUI.yy",},
+    {"name":"obj_Battery","order":4,"path":"objects/obj_Battery/obj_Battery.yy",},
+    {"name":"spr_Cursor","order":3,"path":"sprites/spr_Cursor/spr_Cursor.yy",},
+    {"name":"rm_test2","order":1,"path":"rooms/rm_test2/rm_test2.yy",},
     {"name":"obj_Switch03","order":3,"path":"objects/obj_Switch03/obj_Switch03.yy",},
     {"name":"obj_Light","order":1,"path":"objects/obj_Light/obj_Light.yy",},
+    {"name":"spr_Battery","order":2,"path":"sprites/spr_Battery/spr_Battery.yy",},
     {"name":"obj_Switch02","order":2,"path":"objects/obj_Switch02/obj_Switch02.yy",},
     {"name":"spr_Light","order":1,"path":"sprites/spr_Light/spr_Light.yy",},
-    {"name":"rm_Main","order":1,"path":"rooms/rm_Main/rm_Main.yy",},
   ],
 }

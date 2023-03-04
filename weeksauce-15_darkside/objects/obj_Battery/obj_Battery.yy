@@ -1,10 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Switch03",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
-  ],
+  "name": "obj_Battery",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -28,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Switch",
-    "path": "sprites/spr_Switch/spr_Switch.yy",
+    "name": "spr_Battery",
+    "path": "sprites/spr_Battery/spr_Battery.yy",
   },
   "spriteMaskId": null,
   "visible": true,

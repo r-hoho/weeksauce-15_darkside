@@ -1,15 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Switch03",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
-  ],
+  "name": "obj_Area1",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Object_obj",
-    "path": "folders/Object_obj.yy",
+    "name": "Area",
+    "path": "folders/Object_obj/Area.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Switch",
-    "path": "sprites/spr_Switch/spr_Switch.yy",
+    "name": "spr_Area1",
+    "path": "sprites/spr_Area1/spr_Area1.yy",
   },
   "spriteMaskId": null,
   "visible": true,
