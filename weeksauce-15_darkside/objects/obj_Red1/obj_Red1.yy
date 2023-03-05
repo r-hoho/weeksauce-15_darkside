@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Tower",
+  "name": "obj_Red1",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Tower",
-    "path": "folders/Object_obj/Tower.yy",
+    "name": "Monster",
+    "path": "folders/Object_obj/Monster.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Tower",
-    "path": "sprites/spr_Tower/spr_Tower.yy",
+    "name": "spr_Red1",
+    "path": "sprites/spr_Red1/spr_Red1.yy",
   },
   "spriteMaskId": null,
   "visible": true,

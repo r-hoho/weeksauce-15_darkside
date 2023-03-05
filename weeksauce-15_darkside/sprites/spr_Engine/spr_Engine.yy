@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Sprite_spr",
-    "path": "folders/Sprite_spr.yy",
+    "name": "EngineSet",
+    "path": "folders/Sprite_spr/EngineSet.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

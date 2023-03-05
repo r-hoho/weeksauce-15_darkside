@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Tower",
+  "name": "obj_LaneLight",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Tower",
-    "path": "sprites/spr_Tower/spr_Tower.yy",
+    "name": "spr_LaneLight",
+    "path": "sprites/spr_LaneLight/spr_LaneLight.yy",
   },
   "spriteMaskId": null,
   "visible": true,
