@@ -1,15 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_LaneLight",
+  "name": "obj_MouseDrag",
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Tower",
-    "path": "folders/Object_obj/Tower.yy",
+    "name": "GameManager",
+    "path": "folders/Object_obj/GameManager.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -27,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_LaneLight",
-    "path": "sprites/spr_LaneLight/spr_LaneLight.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

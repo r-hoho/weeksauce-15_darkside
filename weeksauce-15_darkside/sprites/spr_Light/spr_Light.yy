@@ -26,8 +26,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprite_spr",
-    "path": "folders/Sprite_spr.yy",
+    "name": ".test",
+    "path": "folders/Sprite_spr/.test.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

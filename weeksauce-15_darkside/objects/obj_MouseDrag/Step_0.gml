@@ -2,14 +2,12 @@ if (mouse_check_button_pressed(mb_left)) {
 
 	if (position_meeting(mouse_x,mouse_y,obj_Battery)) {
 
-		show_debug_message("Hit");
+		show_debug_message("Drag Battery");
 		is_dragging = true;
 		dragging_obj = instance_position(mouse_x,mouse_y,obj_Battery)
 	
-	} else { 
-		
-		show_debug_message("No");
-	}
+	} 
+	
 }
 
 if (is_dragging == true) {
@@ -35,6 +33,7 @@ if (is_dragging == true) {
 	
 	if (mouse_check_button_released(mb_left)) {
 		
+		show_debug_message("Drop Battery");
 		is_dragging = false;
 		
 	}

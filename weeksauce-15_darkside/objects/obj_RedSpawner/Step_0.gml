@@ -20,7 +20,7 @@ if (global.spawn_timer_sec <= -1) {
 if (spawn_start == true) {
 	
 	global.current_wave += 1;
-	mon_max = (5 * global.current_wave)
+	mon_max = (2 * global.current_wave)
 	
 	var i = 0;
 	while (i < mon_max) {
@@ -57,7 +57,6 @@ if (spawn_start == true) {
 	}
 	
 	//spawn end
-	show_debug_message("-");
 	spawn_start = false;
 	
 }
