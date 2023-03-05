@@ -9,7 +9,10 @@
     "name": "Monster",
     "path": "folders/Object_obj/Monster.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_RedParent",
+    "path": "objects/obj_RedParent/obj_RedParent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
