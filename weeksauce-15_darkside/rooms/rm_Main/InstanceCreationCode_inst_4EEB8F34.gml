@@ -1,1 +1,0 @@
-battery_area = inst_128C718E;

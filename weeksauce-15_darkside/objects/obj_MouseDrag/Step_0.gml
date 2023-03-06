@@ -24,7 +24,7 @@ if (is_dragging == true) {
 		
 	} 
 	
-	else if (position_meeting(mouse_x,mouse_y,obj_AreaBatt)) {
+	else if (position_meeting(mouse_x,mouse_y,obj_Engine)) {
 		
 		dragging_obj.image_angle = 45;
 		

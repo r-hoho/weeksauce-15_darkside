@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Engine",
-    "path": "sprites/spr_Engine/spr_Engine.yy",
+    "name": "spr_Engine_1",
+    "path": "sprites/spr_Engine_1/spr_Engine_1.yy",
   },
   "spriteMaskId": null,
   "visible": true,

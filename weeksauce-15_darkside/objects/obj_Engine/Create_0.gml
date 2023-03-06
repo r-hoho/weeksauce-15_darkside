@@ -1,4 +1,2 @@
-battery_connect = noone;
-battery_plugin = false;
-
-global.run = false;
+battery_connect_status = false;
+click_created = false;
