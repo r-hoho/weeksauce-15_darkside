@@ -19,6 +19,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"spr_Dashboard","order":1,"path":"sprites/spr_Dashboard/spr_Dashboard.yy",},
+    {"name":"spr_GM_PowerState","order":4,"path":"sprites/spr_GM_PowerState/spr_GM_PowerState.yy",},
     {"name":"obj_MouseDrag","order":2,"path":"objects/obj_MouseDrag/obj_MouseDrag.yy",},
     {"name":"obj_DebugUI","order":1,"path":"objects/obj_DebugUI/obj_DebugUI.yy",},
     {"name":"spr_Engine_1","order":2,"path":"sprites/spr_Engine_1/spr_Engine_1.yy",},
@@ -33,6 +34,7 @@
     {"name":"obj_Dashboard","order":3,"path":"objects/obj_Dashboard/obj_Dashboard.yy",},
     {"name":"spr_AreaEngine","order":2,"path":"sprites/spr_AreaEngine/spr_AreaEngine.yy",},
     {"name":"spr_Engine_3","order":4,"path":"sprites/spr_Engine_3/spr_Engine_3.yy",},
+    {"name":"fn_Leela4","order":3,"path":"fonts/fn_Leela4/fn_Leela4.yy",},
     {"name":"spr_Red2","order":1,"path":"sprites/spr_Red2/spr_Red2.yy",},
     {"name":"fn_Leela16","order":1,"path":"fonts/fn_Leela16/fn_Leela16.yy",},
     {"name":"obj_Charger","order":1,"path":"objects/obj_Charger/obj_Charger.yy",},
@@ -47,5 +49,6 @@
     {"name":"spr_DarkLane","order":2,"path":"sprites/spr_DarkLane/spr_DarkLane.yy",},
     {"name":"obj_DarkLane","order":2,"path":"objects/obj_DarkLane/obj_DarkLane.yy",},
     {"name":"obj_LaneLight","order":1,"path":"objects/obj_LaneLight/obj_LaneLight.yy",},
+    {"name":"obj_PowerState","order":5,"path":"objects/obj_PowerState/obj_PowerState.yy",},
   ],
 }

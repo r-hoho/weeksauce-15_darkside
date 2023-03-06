@@ -17,6 +17,8 @@ if (engine_slot_open == false) {
 	battery_connect_id.x = x+5;
 	battery_connect_id.y = y;
 	
+	battery_connect_id.engine_connect_id = engine_connect_id;
+	
 	engine_connect_id.sprite_index = spr_Engine_3;
 
 }

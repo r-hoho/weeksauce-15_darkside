@@ -1,23 +1,25 @@
-if (status == true && run == false) {
+if (power_state == true) {
 	
-	show_debug_message("On-"+string(lane_connection))
-	image_index = 1;
-	lane_connection.visible = true;
+	//check if Battery-In 
+	if (engine_connect_id.sprite_index == spr_Engine_3) {
 	
-	run = true;
+		image_index = 1;
+		lane_connection.visible = true;
+	}
 	
-	
-	
+	//if Battery remove
+	if (engine_connect_id.sprite_index != spr_Engine_3) {
+		
+		power_state = false;
+	}
 }
 
 
-if (status == false && run == false) {
+if (power_state == false) {
 	
-	show_debug_message("Off-"+string(lane_connection))
+	//show_debug_message("Off-"+string(lane_connection))
 	image_index = 0;
 	lane_connection.visible = false;
 	
-	
-	run = true;
 	
 }

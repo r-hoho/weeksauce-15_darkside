@@ -36,6 +36,7 @@
   },
   "resources": [
     {"id":{"name":"spr_Dashboard","path":"sprites/spr_Dashboard/spr_Dashboard.yy",},"order":1,},
+    {"id":{"name":"spr_GM_PowerState","path":"sprites/spr_GM_PowerState/spr_GM_PowerState.yy",},"order":4,},
     {"id":{"name":"obj_MouseDrag","path":"objects/obj_MouseDrag/obj_MouseDrag.yy",},"order":2,},
     {"id":{"name":"obj_DebugUI","path":"objects/obj_DebugUI/obj_DebugUI.yy",},"order":1,},
     {"id":{"name":"obj_Tower","path":"objects/obj_Tower/obj_Tower.yy",},"order":0,},
@@ -60,6 +61,7 @@
     {"id":{"name":"spr_Engine_3","path":"sprites/spr_Engine_3/spr_Engine_3.yy",},"order":4,},
     {"id":{"name":"spr_Tower","path":"sprites/spr_Tower/spr_Tower.yy",},"order":0,},
     {"id":{"name":"obj_Area1","path":"objects/obj_Area1/obj_Area1.yy",},"order":0,},
+    {"id":{"name":"fn_Leela4","path":"fonts/fn_Leela4/fn_Leela4.yy",},"order":3,},
     {"id":{"name":"spr_Area1","path":"sprites/spr_Area1/spr_Area1.yy",},"order":0,},
     {"id":{"name":"spr_Red2","path":"sprites/spr_Red2/spr_Red2.yy",},"order":1,},
     {"id":{"name":"fn_Leela16","path":"fonts/fn_Leela16/fn_Leela16.yy",},"order":1,},
@@ -78,6 +80,7 @@
     {"id":{"name":"spr_DarkLane","path":"sprites/spr_DarkLane/spr_DarkLane.yy",},"order":2,},
     {"id":{"name":"obj_DarkLane","path":"objects/obj_DarkLane/obj_DarkLane.yy",},"order":2,},
     {"id":{"name":"obj_LaneLight","path":"objects/obj_LaneLight/obj_LaneLight.yy",},"order":1,},
+    {"id":{"name":"obj_PowerState","path":"objects/obj_PowerState/obj_PowerState.yy",},"order":5,},
     {"id":{"name":"rm_Test","path":"rooms/rm_Test/rm_Test.yy",},"order":0,},
   ],
   "RoomOrderNodes": [
