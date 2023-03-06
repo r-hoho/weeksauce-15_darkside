@@ -10,7 +10,8 @@ if (mouse_check_button_pressed(mb_left)) {
 	
 }
 
-if (is_dragging == true) {
+
+if (is_dragging == true &&  global.ejecting == false) {
 	
 
 	dragging_obj.x = mouse_x;
@@ -46,4 +47,14 @@ if (is_dragging == true) {
 		
 	}
 
+}
+
+if (global.ejecting == true) {
+	
+	eject_countdown -= 1;
+	if (eject_countdown <= 0) {
+		global.ejecting = false;
+		is_dragging = false;
+		eject_countdown = 30;
+	}
 }

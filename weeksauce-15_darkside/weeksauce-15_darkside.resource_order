@@ -16,6 +16,7 @@
     {"name":"Monster","order":5,"path":"folders/Sprite_spr/Monster.yy",},
     {"name":"Tower","order":4,"path":"folders/Sprite_spr/Tower.yy",},
     {"name":"UI","order":9,"path":"folders/Sprite_spr/UI.yy",},
+    {"name":"Script_scr","order":5,"path":"folders/Script_scr.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_Dashboard","order":1,"path":"sprites/spr_Dashboard/spr_Dashboard.yy",},
