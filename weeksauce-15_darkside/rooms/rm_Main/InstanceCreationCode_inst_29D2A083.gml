@@ -1,1 +1,0 @@
-battery_area = inst_2FC97A99;
