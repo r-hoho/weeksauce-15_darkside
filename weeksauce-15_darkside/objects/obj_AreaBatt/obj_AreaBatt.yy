@@ -1,16 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Engine",
+  "name": "obj_AreaBatt",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Battery",
-    "path": "folders/Object_obj/Battery.yy",
+    "name": "Area",
+    "path": "folders/Object_obj/Area.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Engine",
-    "path": "sprites/spr_Engine/spr_Engine.yy",
+    "name": "spr_AreaEngine",
+    "path": "sprites/spr_AreaEngine/spr_AreaEngine.yy",
   },
   "spriteMaskId": null,
   "visible": true,

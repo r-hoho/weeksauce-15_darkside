@@ -1,0 +1,1 @@
+battery_area = inst_69969494;
