@@ -19,7 +19,7 @@ if (is_dragging == true &&  global.ejecting == false) {
 	
 	//drag into Flip Area
 	
-	if (position_meeting(mouse_x,mouse_y,obj_Area1)) {
+	if (position_meeting(mouse_x,mouse_y,obj_Charger)) {
 		
 		dragging_obj.image_angle = 90;
 		

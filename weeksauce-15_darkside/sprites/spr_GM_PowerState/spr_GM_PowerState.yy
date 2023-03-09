@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "weeksauce-15_darkside",
-    "path": "weeksauce-15_darkside.yyp",
+    "name": "GM",
+    "path": "folders/Sprite_spr/GM.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
