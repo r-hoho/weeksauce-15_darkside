@@ -42,13 +42,16 @@ if (battery_connect_status == true) {
 }
 
 
-if (battery_connect_status == false && lock_created = true) {
+if (battery_connect_status == false) {
 	
-	charging_status = false;
 	image_index = 0;
-	battery_connect_id = noone;
-	instance_destroy(_lock);
-	lock_created = false;
+	if(lock_created == true) {
+		
+		battery_connect_id = noone;
+		instance_destroy(_lock);
+		lock_created = false;
+		charging_status = false;
+	}
 
 }
 
