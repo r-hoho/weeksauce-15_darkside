@@ -59,7 +59,7 @@ if (charging_status == true ) {
 	
 	if (battery_connect_id.energy <= 100) {
 		
-		battery_connect_id.energy += 20/60;
+		battery_connect_id.energy += 10/60;
 	}
 	
 }

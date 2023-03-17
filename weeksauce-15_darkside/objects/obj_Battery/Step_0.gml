@@ -13,7 +13,7 @@ if (switch_connect_id != noone) {
 	
 	if (switch_connect_id.power_state == true) {
 		
-		energy -= 20/60;
+		energy -= 10/60;
 	}
 	
 	if (energy <= 0 ) {
