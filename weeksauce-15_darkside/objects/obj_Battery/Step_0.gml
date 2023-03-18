@@ -44,3 +44,35 @@ switch (energy)
 		image_index = 4;
     break;
 }
+
+
+if (ejected == true) {
+	
+	//show_debug_message("EJECTED!!!")
+	
+	if (ejected_location == false) {
+		
+		rand_x = irandom_range(50,300);
+		rand_angle = irandom_range(5,10);
+		ejected_location = true;
+	}
+	
+	move_towards_point(rand_x,350,5);
+	image_angle += rand_angle;
+	
+	if (vspeed >= 0) {vspeed += 1;}
+	if (vspeed < 0) {vspeed -= 6;}
+	vspeed -= 4;
+	
+	if (place_meeting(x,y,obj_AreaBattDrop)) {ejected = false;}
+	
+}
+
+if (ejected == false) {
+	
+	vspeed = 0;
+	hspeed = 0;
+	ejected_location = false;
+}
+	
+

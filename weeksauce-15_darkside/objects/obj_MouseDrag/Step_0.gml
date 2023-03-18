@@ -16,6 +16,7 @@ if (is_dragging == true &&  global.ejecting == false) {
 
 	dragging_obj.x = mouse_x;
 	dragging_obj.y = mouse_y;
+	dragging_obj.ejected = false;
 	
 	//drag into Flip Area
 	
