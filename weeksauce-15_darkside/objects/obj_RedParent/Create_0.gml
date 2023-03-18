@@ -1,6 +1,6 @@
-hp = 60 * 3;
+hp = 60 * 3; //adjust later value for sec as hp
 
-move_spd = 1;
+move_spd = 2;
 dmg = 1;
 
 slow = 0;

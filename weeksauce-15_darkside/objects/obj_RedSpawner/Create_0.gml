@@ -1,5 +1,5 @@
-global.spawn_timer_sec = 2;
-global.spawn_reset_sec = 2;
+global.spawn_timer_sec = 3;
+global.spawn_reset_sec = 3;
 
 count = 60;
 

@@ -37,7 +37,9 @@ if (spawn_start == true) {
 		
 		angle_var = 40;
 		
-		rand_dist = irandom_range(200,300);
+		if (global.current_wave < 5 ) {rand_dist = irandom_range(200,300);}
+		if (global.current_wave >= 5) {rand_dist = irandom_range(200,500);}
+		if (global.current_wave >= 9) {rand_dist = irandom_range(200,1000);}
 		
 		rand_angle_1 = irandom_range(135-angle_var,135+angle_var);
 		rand_angle_2 = irandom_range(45-angle_var,45+angle_var);

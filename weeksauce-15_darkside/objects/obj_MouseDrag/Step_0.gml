@@ -55,6 +55,6 @@ if (global.ejecting == true) {
 	if (eject_countdown <= 0) {
 		global.ejecting = false;
 		is_dragging = false;
-		eject_countdown = 30;
+		eject_countdown = 10;
 	}
 }
