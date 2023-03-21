@@ -5,3 +5,5 @@ dmg = 1;
 
 slow = 0;
 lane_light = noone;
+
+gold_drop = 5;

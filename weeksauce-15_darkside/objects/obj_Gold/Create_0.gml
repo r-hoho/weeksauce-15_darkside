@@ -1,0 +1,1 @@
+global.gold = 0;

@@ -7,5 +7,6 @@ draw_text(400,570,"Wave in: " + string(global.spawn_timer_sec));
 draw_text(400,600,"Current Wave: " + string(global.current_wave));
 
 draw_text(400,510,"HP: " + string(obj_Tower.hp));
+draw_text(400,480,"Red Essence: " + string(global.gold));
 
 

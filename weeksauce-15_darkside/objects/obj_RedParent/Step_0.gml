@@ -1,5 +1,11 @@
-if (hp <= 0) { instance_destroy() }
+if (hp <= 0) { 
 	
+	global.gold += gold_drop;
+	instance_destroy() 
+	
+	}
+	
+
 move_towards_point(obj_Tower.x,obj_Tower.y,(move_spd)*slow);
 
 if (place_meeting(x,y,obj_LaneLight)) {
