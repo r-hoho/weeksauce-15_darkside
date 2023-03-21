@@ -22,28 +22,12 @@ if (switch_connect_id != noone) {
 	}
 }
 
-switch (energy)
-{
-    case 100:
-		image_index = 0;
-    break;
-	
-	case 75:
-		image_index = 1;
-    break;
 
-    case 50:
-		image_index = 2;
-    break;
-	
-	case 25:
-		image_index = 3;
-    break;
-	
-	case 0:
-		image_index = 4;
-    break;
-}
+if (energy >= 100) {image_index = 0;}
+if (energy <= 75) {image_index = 1;}
+if (energy <= 50) {image_index = 2;}
+if (energy <= 25) {image_index = 3;}
+if (energy <= 0) {image_index = 4;}
 
 
 if (ejected == true) {
