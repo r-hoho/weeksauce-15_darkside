@@ -19,7 +19,7 @@ if (!place_meeting(x,y,obj_Battery)) {
 
 if (battery_connect_status == true && click_created == false) {
 
-	_click = instance_create_layer(x,y+40,"ins_Battery",obj_EngineClick);
+	_click = instance_create_layer(x,y,"ins_Battery",obj_EngineClick);
 	_click.battery_connect_id = instance_place(x,y,obj_Battery);
 	_click.engine_connect_id = id;
 	

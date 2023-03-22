@@ -14,8 +14,10 @@ if (position_meeting(mouse_x,mouse_y,self) && engine_slot_open == true) {
 if (engine_slot_open == false) {
 	
 	battery_connect_id.image_angle = 0;
-	battery_connect_id.x = x+5;
+	battery_connect_id.x = x;
 	battery_connect_id.y = y;
+	battery_connect_id.depth = 201;
+	visible = false;
 	
 	battery_connect_id.engine_connect_id = engine_connect_id;
 	
