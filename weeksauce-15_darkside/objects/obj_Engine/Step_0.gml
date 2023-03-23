@@ -25,6 +25,7 @@ if (battery_connect_status == true && click_created == false) {
 	
 	click_created = true;
 	
+	
 }
 
 if (battery_connect_status == false && click_created == true) {
@@ -32,8 +33,30 @@ if (battery_connect_status == false && click_created == true) {
 	instance_destroy(_click);
 	click_created = false;
 	sprite_index = spr_Engine_1;
+	animation_grab = false;
 	
 }
+
+
+//Animation
+if (sprite_index == spr_Engine_1) {
+
+	if (image_index <= 3) {image_index += 40/60;}
+}
+
+if (sprite_index == spr_Engine_3) {
+	
+	if (animation_grab == false) {
+	
+	image_index = 0;
+	animation_grab = true;
+	}
+	
+	if (image_index <= 3) {image_index += 30/60;}
+	
+}
+
+
 
 
 

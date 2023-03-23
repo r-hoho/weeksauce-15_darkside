@@ -22,6 +22,7 @@ if (engine_slot_open == false) {
 	battery_connect_id.engine_connect_id = engine_connect_id;
 	
 	engine_connect_id.sprite_index = spr_Engine_3;
+	
 }
 
 
@@ -42,5 +43,8 @@ if (position_meeting(mouse_x,mouse_y,self) && engine_slot_open == false) {
 
 if (engine_slot_open == true) {
 	
+	
 	engine_connect_id.sprite_index = spr_Engine_1;
+	engine_connect_id.image_index = 1;
+	
 }
