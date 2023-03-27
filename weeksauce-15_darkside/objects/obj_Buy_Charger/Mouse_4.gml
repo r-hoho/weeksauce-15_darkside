@@ -11,7 +11,7 @@ if (global.gold >= current_cost) {
 	with (_newCharger) {
 	
 		//image_xscale = 0.9090909;
-		image_yscale = 0.76;
+		image_yscale = 0.75;
 	
 	}
 	

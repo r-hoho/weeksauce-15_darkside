@@ -24,8 +24,8 @@ if (battery_connect_status == true) {
 		if (mouse_check_button_pressed(mb_left)) {
 			
 			show_debug_message("TestCharged")
-			battery_connect_id.x = x-25;
-			battery_connect_id.y = y-10;
+			battery_connect_id.x = x+4;
+			battery_connect_id.y = y+2;
 			battery_connect_id.image_angle = 90;
 			
 			charging_status = true;
@@ -51,6 +51,9 @@ if (battery_connect_status == false) {
 		instance_destroy(_lock);
 		lock_created = false;
 		charging_status = false;
+		
+		//scr_BatteryEject(battery_connect_id);
+		//global.ejecting = true;
 	}
 
 }
