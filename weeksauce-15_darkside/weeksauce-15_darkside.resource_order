@@ -57,6 +57,7 @@
     {"name":"obj_Switch02","order":2,"path":"objects/obj_Switch02/obj_Switch02.yy",},
     {"name":"spr_Charger","order":1,"path":"sprites/spr_Charger/spr_Charger.yy",},
     {"name":"spr_DarkLane","order":2,"path":"sprites/spr_DarkLane/spr_DarkLane.yy",},
+    {"name":"spr_LaneLight2","order":3,"path":"sprites/spr_LaneLight2/spr_LaneLight2.yy",},
     {"name":"obj_DarkLane","order":2,"path":"objects/obj_DarkLane/obj_DarkLane.yy",},
     {"name":"obj_ChargerLock","order":6,"path":"objects/obj_ChargerLock/obj_ChargerLock.yy",},
     {"name":"obj_LaneLight","order":1,"path":"objects/obj_LaneLight/obj_LaneLight.yy",},

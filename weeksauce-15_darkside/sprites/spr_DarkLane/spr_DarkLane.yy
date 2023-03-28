@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_DarkLane",
-  "bbox_bottom": 63,
+  "bbox_bottom": 279,
   "bbox_left": 0,
-  "bbox_right": 63,
+  "bbox_right": 379,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"23c98964-7d0d-436a-be95-5dcac3fa5671",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2438306c-bde6-404f-85b4-3e8c24eeccf5",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 64,
+  "height": 280,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"05fb097a-8ae7-4fd3-bf56-d48a2021ee7d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fec42b64-36cd-47d1-9113-0092f80acf65","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"23c98964-7d0d-436a-be95-5dcac3fa5671","path":"sprites/spr_DarkLane/spr_DarkLane.yy",},},},"Disabled":false,"id":"5a32e939-3434-42be-a568-af0826b298f6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2438306c-bde6-404f-85b4-3e8c24eeccf5","path":"sprites/spr_DarkLane/spr_DarkLane.yy",},},},"Disabled":false,"id":"b58758cf-cdb4-47cb-9054-1054af8126d6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 64,
+  "width": 380,
 }
