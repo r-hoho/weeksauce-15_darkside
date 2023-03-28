@@ -14,6 +14,8 @@ if (!place_meeting(x,y,obj_Battery)) {
 	
 }
 
+
+
 if (battery_connect_status == true) {
 	
 	image_index = 1;
@@ -31,14 +33,18 @@ if (battery_connect_status == true) {
 			charging_status = true;
 			
 			if (lock_created == false) {
-			_lock = instance_create_layer(x,y,"ins_Area",obj_ChargerLock);
+			_lock = instance_create_layer(x,y,"ins_Charger",obj_ChargerLock);
+			_lock.depth = 99;
 			_lock.x = x+10;
 			_lock.y = y+2;
 			//_lock.image_angle = 90;
 			lock_created = true;
+			exit;
 			}
 		}
 	}
+	
+	
 }
 
 
@@ -57,6 +63,22 @@ if (battery_connect_status == false) {
 	}
 
 }
+
+if (position_meeting(mouse_x,mouse_y,self) && battery_connect_status == true) {
+
+	
+	if (mouse_check_button_pressed(mb_left)) {
+	
+		show_debug_message("Eject");
+		
+		scr_BatteryEject(battery_connect_id);
+	
+		battery_connect_status = false;
+		global.ejecting = true;
+	}
+}
+
+
 
 if (charging_status == true ) {
 	
