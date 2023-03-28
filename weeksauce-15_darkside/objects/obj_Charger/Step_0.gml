@@ -32,9 +32,9 @@ if (battery_connect_status == true) {
 			
 			if (lock_created == false) {
 			_lock = instance_create_layer(x,y,"ins_Area",obj_ChargerLock);
-			_lock.x = x-25;
-			_lock.y = y-10;
-			_lock.image_angle = 90;
+			_lock.x = x+10;
+			_lock.y = y+2;
+			//_lock.image_angle = 90;
 			lock_created = true;
 			}
 		}
