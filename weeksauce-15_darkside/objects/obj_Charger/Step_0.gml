@@ -37,6 +37,7 @@ if (battery_connect_status == true) {
 			_lock.depth = 99;
 			_lock.x = x+10;
 			_lock.y = y+2;
+			_lock.battery_connect_id = battery_connect_id;
 			//_lock.image_angle = 90;
 			lock_created = true;
 			exit;

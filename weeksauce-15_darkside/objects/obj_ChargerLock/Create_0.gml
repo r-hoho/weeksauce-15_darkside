@@ -1,0 +1,1 @@
+battery_connect_id = noone;
