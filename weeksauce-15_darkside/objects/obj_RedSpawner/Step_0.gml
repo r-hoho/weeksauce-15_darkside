@@ -35,11 +35,11 @@ if (spawn_start == true) {
 	var i = 0;
 	while (i < mon_max) {
 		
-		angle_var = 40;
+		angle_var = 40-20;
 		
-		if (global.current_wave < 5 ) {rand_dist = irandom_range(200,300);}
-		if (global.current_wave >= 5) {rand_dist = irandom_range(200,500);}
-		if (global.current_wave >= 9) {rand_dist = irandom_range(200,1000);}
+		if (global.current_wave < 5 ) {rand_dist = irandom_range(250,500);}
+		if (global.current_wave >= 5) {rand_dist = irandom_range(250,900);}
+		if (global.current_wave >= 9) {rand_dist = irandom_range(250,1200);}
 		
 		rand_angle_1 = irandom_range(135-angle_var,135+angle_var);
 		rand_angle_2 = irandom_range(45-angle_var,45+angle_var);

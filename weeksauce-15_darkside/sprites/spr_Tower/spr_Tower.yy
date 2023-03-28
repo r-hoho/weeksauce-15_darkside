@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_Tower",
-  "bbox_bottom": 37,
+  "bbox_bottom": 35,
   "bbox_left": 30,
   "bbox_right": 33,
   "bbox_top": 34,

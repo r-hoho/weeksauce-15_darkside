@@ -36,7 +36,7 @@ if (ejected == true) {
 	
 	if (ejected_location == false) {
 		
-		rand_x = irandom_range(50,300);
+		rand_x = irandom_range(100,300);
 		rand_angle = irandom_range(5,10);
 		ejected_location = true;
 	}

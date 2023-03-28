@@ -6,13 +6,17 @@ if (global.gold >= current_cost) {
 	current_tier += 1;
 	
 	
-	_newBatt = instance_create_layer(100,300,"ins_Battery",obj_Battery);
+	_newBatt = instance_create_layer(400,400,"ins_Battery",obj_Battery);
 
 	with (_newBatt) {
 	
+		x = 400;
+		y = 400;
 		image_xscale = 1;
 		image_yscale = 1;
 	
 	}
+	
+	scr_BatteryEjectBuy(_newBatt);
 }
 

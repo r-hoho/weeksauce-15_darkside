@@ -37,6 +37,7 @@
     {"name":"spr_EngineClick","order":5,"path":"sprites/spr_EngineClick/spr_EngineClick.yy",},
     {"name":"obj_Engine","order":2,"path":"objects/obj_Engine/obj_Engine.yy",},
     {"name":"spr_LaneLight","order":1,"path":"sprites/spr_LaneLight/spr_LaneLight.yy",},
+    {"name":"scr_BatteryEjectBuy","order":1,"path":"scripts/scr_BatteryEjectBuy/scr_BatteryEjectBuy.yy",},
     {"name":"obj_Dashboard","order":3,"path":"objects/obj_Dashboard/obj_Dashboard.yy",},
     {"name":"spr_AreaEngine","order":2,"path":"sprites/spr_AreaEngine/spr_AreaEngine.yy",},
     {"name":"spr_Engine_3","order":4,"path":"sprites/spr_Engine_3/spr_Engine_3.yy",},

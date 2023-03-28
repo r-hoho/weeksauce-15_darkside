@@ -64,6 +64,7 @@
     {"id":{"name":"obj_Buy_Battery","path":"objects/obj_Buy_Battery/obj_Buy_Battery.yy",},"order":0,},
     {"id":{"name":"obj_Engine","path":"objects/obj_Engine/obj_Engine.yy",},"order":2,},
     {"id":{"name":"spr_LaneLight","path":"sprites/spr_LaneLight/spr_LaneLight.yy",},"order":1,},
+    {"id":{"name":"scr_BatteryEjectBuy","path":"scripts/scr_BatteryEjectBuy/scr_BatteryEjectBuy.yy",},"order":1,},
     {"id":{"name":"obj_Dashboard","path":"objects/obj_Dashboard/obj_Dashboard.yy",},"order":3,},
     {"id":{"name":"spr_AreaEngine","path":"sprites/spr_AreaEngine/spr_AreaEngine.yy",},"order":2,},
     {"id":{"name":"spr_GM_Spawner","path":"sprites/spr_GM_Spawner/spr_GM_Spawner.yy",},"order":0,},

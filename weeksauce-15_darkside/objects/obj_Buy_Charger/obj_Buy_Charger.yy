@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Buy_Charger",
-    "path": "sprites/spr_Buy_Charger/spr_Buy_Charger.yy",
+    "name": "spr_Buy_Battery",
+    "path": "sprites/spr_Buy_Battery/spr_Buy_Battery.yy",
   },
   "spriteMaskId": null,
   "visible": true,
