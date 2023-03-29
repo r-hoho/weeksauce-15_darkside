@@ -15,6 +15,6 @@ if (global.gold >= current_cost) {
 	
 	}
 	
-	y -= 30;
+	y -= 40;
 }
 
