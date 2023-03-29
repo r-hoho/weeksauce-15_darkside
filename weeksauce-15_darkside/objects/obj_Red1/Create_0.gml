@@ -7,3 +7,5 @@ slow = 0;
 lane_light = noone;
 
 gold_drop = 1;
+
+_run = 0;
