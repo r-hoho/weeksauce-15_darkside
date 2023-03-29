@@ -1,12 +1,19 @@
 draw_set_color(c_white);
-draw_set_font(fn_Leela20);
-draw_set_halign(fa_center);
+draw_set_font(fn_Leela16);
+draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
 
-draw_text(400,570,"Wave in: " + string(global.spawn_timer_sec));
-draw_text(400,600,"Current Wave: " + string(global.current_wave));
+draw_set_font(fn_Leela20);
+draw_text(865,70,"Wave: " + string(global.current_wave));
 
-draw_text(400,510,"HP: " + string(obj_Tower.hp));
-draw_text(400,480,"Red Essence: " + string(global.gold));
+draw_set_font(fn_Leela16);
+draw_text(865,110,"Next Wave in: ");
+draw_text(865,135,string(global.spawn_timer_sec));
+
+draw_set_font(fn_Leela20);
+draw_text(865,210,"HP: " + string(obj_Tower.hp));
+
+draw_set_font(fn_Leela16);
+draw_text(865,245,"Cash: $" + string(global.gold));
 
 
