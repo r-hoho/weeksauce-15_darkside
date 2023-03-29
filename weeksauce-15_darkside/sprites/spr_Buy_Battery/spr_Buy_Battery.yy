@@ -13,15 +13,15 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f79a32c3-5d63-490c-a5eb-bb3e4ca0879f",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5e818248-c564-4ece-bbc1-03c395edc371",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d289521f-7d21-4be0-9895-40c297184d89",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"07e2c629-855b-48bf-9b33-c28a650ff2e3",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"67dbaf18-007a-4120-878b-bff2808a9ffc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e69d0ba8-783d-41d0-a640-de93d04bec60","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 9,
@@ -55,8 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f79a32c3-5d63-490c-a5eb-bb3e4ca0879f","path":"sprites/spr_Buy_Battery/spr_Buy_Battery.yy",},},},"Disabled":false,"id":"bccff771-1fc1-406e-95d7-c4ec1f17ab48","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5e818248-c564-4ece-bbc1-03c395edc371","path":"sprites/spr_Buy_Battery/spr_Buy_Battery.yy",},},},"Disabled":false,"id":"09d5e442-dd70-4650-bc22-522bf5832714","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d289521f-7d21-4be0-9895-40c297184d89","path":"sprites/spr_Buy_Battery/spr_Buy_Battery.yy",},},},"Disabled":false,"id":"e414d123-ccfe-41c4-8b86-37189c265864","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"07e2c629-855b-48bf-9b33-c28a650ff2e3","path":"sprites/spr_Buy_Battery/spr_Buy_Battery.yy",},},},"Disabled":false,"id":"ef9a1a9c-5281-421e-8b16-8db7e4ddc7da","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
