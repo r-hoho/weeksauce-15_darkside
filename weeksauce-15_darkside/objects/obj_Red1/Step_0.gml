@@ -7,6 +7,8 @@ if (hp <= 0) {
 	
 	}
 	
+if (global.current_wave >= 5) {move_spd = 12/100}
+if (global.current_wave >= 10) {move_spd = 15/100}
 
 move_towards_point(obj_Tower.x,obj_Tower.y,(move_spd)*slow);
 

@@ -21,7 +21,23 @@ randomize();
 if (spawn_start == true) {
 	
 	global.current_wave += 1;
-	mon_max = (10 * global.current_wave)
+	
+	switch (global.current_wave) {
+		
+		case 1: 
+			mon_max = (10 * global.current_wave)
+			break;
+			
+		case 4: 
+			mon_max = (20 * global.current_wave)
+			break;
+			
+		case 9: 
+			mon_max = (40 * global.current_wave)
+			break;
+		
+	
+	}
 	
 	//Lane Chooser Logic
 	
@@ -50,23 +66,23 @@ if (spawn_start == true) {
 		switch (_lane1) {
 			
 			case 1: 
-				xx = obj_Tower.x + lengthdir_x(irandom_range(200,500),rand_angle_1)
-				yy = obj_Tower.y + lengthdir_y(irandom_range(200,500),rand_angle_1)
+				xx = obj_Tower.x + lengthdir_x(rand_dist,rand_angle_1)
+				yy = obj_Tower.y + lengthdir_y(rand_dist,rand_angle_1)
 				break;
 				
 			case 2: 
-				xx = obj_Tower.x + lengthdir_x(irandom_range(200,500),rand_angle_2)
-				yy = obj_Tower.y + lengthdir_y(irandom_range(200,500),rand_angle_2)
+				xx = obj_Tower.x + lengthdir_x(rand_dist,rand_angle_2)
+				yy = obj_Tower.y + lengthdir_y(rand_dist,rand_angle_2)
 				break;
 				
 			case 3: 
-				xx = obj_Tower.x + lengthdir_x(irandom_range(200,500),rand_angle_3)
-				yy = obj_Tower.y + lengthdir_y(irandom_range(200,500),rand_angle_3)
+				xx = obj_Tower.x + lengthdir_x(rand_dist,rand_angle_3)
+				yy = obj_Tower.y + lengthdir_y(rand_dist,rand_angle_3)
 				break;
 				
 			case 4: 
-				xx = obj_Tower.x + lengthdir_x(irandom_range(200,500),rand_angle_4)
-				yy = obj_Tower.y + lengthdir_y(irandom_range(200,500),rand_angle_4)
+				xx = obj_Tower.x + lengthdir_x(rand_dist,rand_angle_4)
+				yy = obj_Tower.y + lengthdir_y(rand_dist,rand_angle_4)
 				break;
 		}
 		
@@ -143,230 +159,91 @@ if (spawn_start == true) {
 			
 			case 1: 		
 				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
 				break;
 				
 			case 2:				
 				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
 				break;
 				
 			case 3:		
 				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
 				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
 				break;
 				
 			case 4:
 				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
 				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
 				break;
 				
 			case 5:		
 				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
 				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
 				break;
 				
 			case 6:		
 				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
 				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);;
 				break;
 				
 			case 7:		
 				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
 				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
 				break;
 				
 			case 8:		
 				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
 				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
 				break;
 				
 			case 9:		
 				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
 				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
+				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1)
 				break;
 				
 			case 10:		
 				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
 				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
 				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
 				break;
 				
 			case 11:		
 				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
 				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
 				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
 				break;
 				
 			case 12:		
 				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
 				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
 				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
 				break;
 				
 			case 13:		
 				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
 				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
 				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
+				instance_create_layer(xx4,yy4,"ins_Monster",obj_Red1);
 				break;
 				
 			case 14:		
 				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
 				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
 				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
+				instance_create_layer(xx4,yy4,"ins_Monster",obj_Red1);
 				
 			case 15:		
 				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
 				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
 				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
+				instance_create_layer(xx4,yy4,"ins_Monster",obj_Red1);
 				break;
 				
 			case 16:		
 				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
 				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
 				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx,yy,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx2,yy2,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
-				instance_create_layer(xx3,yy3,"ins_Monster",obj_Red1);
+				instance_create_layer(xx4,yy4,"ins_Monster",obj_Red1);
 				break;
 			
 			

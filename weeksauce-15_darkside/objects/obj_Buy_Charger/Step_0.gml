@@ -1,5 +1,5 @@
-if (current_tier == 0) {current_cost = 100;}
-if (current_tier == 1) {current_cost = 500;}
+if (current_tier == 0) {current_cost = 200;}
+if (current_tier == 1) {current_cost = 800;}
 if (current_tier == 2) {instance_destroy();}
 
 
