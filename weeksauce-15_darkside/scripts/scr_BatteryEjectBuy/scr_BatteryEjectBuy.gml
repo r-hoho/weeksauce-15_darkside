@@ -6,6 +6,7 @@ function scr_BatteryEjectBuy(_id){
 	_id.y = y-100;
 	_id.image_angle = 45;
 	_id.ejected = true;
+	_id.energy = 0;
 
 	
 	_id.engine_connect_id = noone;

@@ -1,6 +1,5 @@
 if (hp <= 0) { 
-	
-	global.gold += gold_drop;
+
 	sprite_index = spr_Red1_Dead;
 	slow = 100/100;
 	exit;
