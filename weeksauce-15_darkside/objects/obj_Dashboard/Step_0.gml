@@ -1,0 +1,1 @@
+if (obj_Tower.hp < 0) {visible = true;}

@@ -1,16 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_LaneLight",
+  "name": "obj_BigSpawn",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Tower",
-    "path": "folders/Object_obj/Tower.yy",
+    "name": "Monster",
+    "path": "folders/Object_obj/Monster.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_LaneLight",
-    "path": "sprites/spr_LaneLight/spr_LaneLight.yy",
+    "name": "spr_RedBig",
+    "path": "sprites/spr_RedBig/spr_RedBig.yy",
   },
   "spriteMaskId": null,
   "visible": true,

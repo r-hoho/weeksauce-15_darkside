@@ -40,6 +40,8 @@
   "resources": [
     {"id":{"name":"spr_Dashboard","path":"sprites/spr_Dashboard/spr_Dashboard.yy",},"order":1,},
     {"id":{"name":"spr_GM_PowerState","path":"sprites/spr_GM_PowerState/spr_GM_PowerState.yy",},"order":1,},
+    {"id":{"name":"spr_RedBig","path":"sprites/spr_RedBig/spr_RedBig.yy",},"order":4,},
+    {"id":{"name":"obj_BigSpawn","path":"objects/obj_BigSpawn/obj_BigSpawn.yy",},"order":6,},
     {"id":{"name":"obj_MouseDrag","path":"objects/obj_MouseDrag/obj_MouseDrag.yy",},"order":2,},
     {"id":{"name":"obj_DebugUI","path":"objects/obj_DebugUI/obj_DebugUI.yy",},"order":1,},
     {"id":{"name":"obj_Tower","path":"objects/obj_Tower/obj_Tower.yy",},"order":0,},
@@ -67,6 +69,7 @@
     {"id":{"name":"obj_Buy_Battery","path":"objects/obj_Buy_Battery/obj_Buy_Battery.yy",},"order":0,},
     {"id":{"name":"spr_TowerRed","path":"sprites/spr_TowerRed/spr_TowerRed.yy",},"order":5,},
     {"id":{"name":"obj_Engine","path":"objects/obj_Engine/obj_Engine.yy",},"order":2,},
+    {"id":{"name":"obj_RedBig","path":"objects/obj_RedBig/obj_RedBig.yy",},"order":5,},
     {"id":{"name":"spr_LaneLight","path":"sprites/spr_LaneLight/spr_LaneLight.yy",},"order":1,},
     {"id":{"name":"scr_BatteryEjectBuy","path":"scripts/scr_BatteryEjectBuy/scr_BatteryEjectBuy.yy",},"order":1,},
     {"id":{"name":"obj_Dashboard","path":"objects/obj_Dashboard/obj_Dashboard.yy",},"order":3,},
