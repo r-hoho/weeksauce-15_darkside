@@ -1,5 +1,5 @@
-global.spawn_timer_sec = 1; //default 5
-global.spawn_reset_sec = 1; //default 15
+global.spawn_timer_sec = 15; //default 15
+global.spawn_reset_sec = 15; //default 15
 
 count = 60;
 

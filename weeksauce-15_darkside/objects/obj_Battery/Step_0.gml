@@ -39,6 +39,8 @@ if (ejected == true) {
 		rand_x = irandom_range(100,300);
 		rand_angle = irandom_range(5,10);
 		ejected_location = true;
+		
+		if(room == rm_Tutorial) { rand_x = irandom_range(250,400);}
 	}
 	
 	move_towards_point(rand_x,350,5);

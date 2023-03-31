@@ -11,3 +11,4 @@ if (hp <= 30) {image_index = 7;}
 if (hp <= 20) {image_index = 8;}
 if (hp < 0) {image_index = 9;}
 
+

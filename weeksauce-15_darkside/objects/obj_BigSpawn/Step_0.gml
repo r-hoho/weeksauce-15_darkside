@@ -1,8 +1,9 @@
-if (obj_Tower.hp <= 20) {spawn_start = true}
+if (obj_Tower.hp <= 10) {spawn_start_2 = true}
 
-if (spawn_start == true) {
+if (spawn_start_2 == true) {
    
    count += 1;
+   endgame_count += 1;
    
    if (count >= 10) {
 	   
@@ -12,4 +13,14 @@ if (spawn_start == true) {
 	   count = 0;
 	   
    }
+   
+   if (endgame_count >= (60*5)) {
+	   
+	   instance_create_layer(350,180,"Ins_Blackout",obj_Endgame)
+	   
+	   
+	   room_goto(rm_End)
+
+	   
+	  }
 }
